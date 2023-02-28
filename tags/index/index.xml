@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>index on zkMove</title>
-    <link>https://www.zkmove.net/tags/index/</link>
+    <link>https://www.suoyuan.xyz/tags/index/</link>
     <description>Recent content in index on zkMove</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://www.zkmove.net/tags/index/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://www.suoyuan.xyz/tags/index/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Posts</title>
-      <link>https://www.zkmove.net/blog/</link>
+      <link>https://www.suoyuan.xyz/blog/</link>
       <pubDate>Tue, 04 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.zkmove.net/blog/</guid>
+      <guid>https://www.suoyuan.xyz/blog/</guid>
       <description></description>
     </item>
     
