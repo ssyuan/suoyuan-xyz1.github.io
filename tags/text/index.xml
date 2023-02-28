@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>text on zkMove</title>
+    <link>https://www.zkmove.net/tags/text/</link>
+    <description>Recent content in text on zkMove</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 16 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.zkmove.net/tags/text/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>zkMove at a Glance</title>
+      <link>https://www.zkmove.net/blog/zkmove-at-a-glance/</link>
+      <pubDate>Sun, 16 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.zkmove.net/blog/zkmove-at-a-glance/</guid>
+      <description>zkMove at a Glance With the boom of Defi and the emergence of non-financial smart contracts, the scalability of public chains, represented by Ethereum, is being increasingly challenged. Although technologies such as POS and sharding can improve the throughput rate to a certain extent, the root cause of congestion still exists in the long run. This is because any transaction that wants to be on the chain requires most nodes across the network to verify its validity, and the method of verification is to execute the transaction repeatedly.</description>
+    </item>
+    
+  </channel>
+</rss>
