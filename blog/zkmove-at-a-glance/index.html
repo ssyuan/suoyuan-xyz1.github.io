@@ -16,7 +16,7 @@
 
 
 
-<link rel="stylesheet" href="/css/style.min.a5a19768f9a1b085948cab600fff29847d8c115854fb5ac1263a13bd63a21ed5.css" />
+<link rel="stylesheet" href="/css/style.min.66c56ab2bd7018b9d3b88a2766a8e7ffe3560743565d812e1e589e90131f578a.css" />
 
 
 <link href='/css/style.min.css' rel="stylesheet" type="text/css">
@@ -152,7 +152,7 @@
 </blockquote>
 <p>We know that the content of a blockchain ledger is completely public. A ledger with fully public content is very limited in its use. No one is going to use a will repository, a voting system, or a medical information system where the data is completely public. With zkMove, we can use sensitive information as hidden input parameters for smart contracts, so that private data is not exposed.</p>
 <p>Next, we will take zkMove&rsquo;s most typical usage scenario, zk-rollup, as an example to illustrate how it works. In order to &ldquo;Move&rdquo; the computation from on-chain to off-chain, user transactions need to be executed off-chain in the order they are submitted, and zk (short for zero-knowledge) proof and encoded operation records are generated, and then the run results and zk proof are submitted to the chain. A smart contract on the chain verifies the zk proof, and if it passes, the user&rsquo;s transaction is indeed executed correctly, and then the latest Merkle root R&rsquo; is recorded. The encoded operation record is uploaded to the chain as the parameter of the smart contract verifying the zk proof. Below diagram depicts a typical workflow of zkMove.</p>
-<p><img src="/img/blog/zkmove_arch.svg" alt="zkmove_arch"></p>
+<p><img src="/img/blog/zkmove-arch.png" alt="zkmove_arch"></p>
 <p>At its core is a stack based Move language bytecode virtual machine. The witness is the input to the transaction, which typically contains the accounts involved in the transaction, the Merkle proof, and the root of the state tree before the transaction is executed. The public data is the output of the transaction, which typically contains the root of the new state tree after the transaction is executed. zkMove uses the PLONK zero-knowledge proof algorithm, which requires only one trusted initial setup, and the proving key and verification key are generated at the time of the smart contract is published.</p>
 <p>As of this posting, we are nearing completion of the first phase of the POC for the zkMove zero-knowledge proof virtual machine, where non-Turing-complete Move smart contracts can execute correctly and their zk proofs can be generated and verified correctly. In the next phase, we will improve the existing features and reach Turing-complete, so stay tuned for more details!</p>
 </div>
