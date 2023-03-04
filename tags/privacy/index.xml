@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>privacy on zkMove</title>
-    <link>https://www.suoyuan.xyz/tags/privacy/</link>
+    <link>https://tella.suoyuan.xyz/tags/privacy/</link>
     <description>Recent content in privacy on zkMove</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 01 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.suoyuan.xyz/tags/privacy/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://tella.suoyuan.xyz/tags/privacy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The First Demo of zkMove</title>
-      <link>https://www.suoyuan.xyz/blog/the-first-demo-of-zkmove/</link>
+      <link>https://tella.suoyuan.xyz/blog/the-first-demo-of-zkmove/</link>
       <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.suoyuan.xyz/blog/the-first-demo-of-zkmove/</guid>
+      <guid>https://tella.suoyuan.xyz/blog/the-first-demo-of-zkmove/</guid>
       <description>&lt;p&gt;Last week, I gave a demo at the Move community’s weekly meeting. It was the first public appearance of zkMove. We had a comprehensive discussion about the features of zkMove, which I will summarize briefly here with this post.&lt;/p&gt;</description>
     </item>
     
